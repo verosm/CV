@@ -1,0 +1,309 @@
+*{
+    
+    padding: 0;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4em;
+    text-align: justify;
+    color: #333;
+    box-sizing: border-box;
+    text-decoration: none; 
+    scroll-behavior: smooth;
+    max-width: 1056px;
+    margin: 0 auto;
+   
+}
+
+.imagenmujer {
+    width: 70%;
+    padding: 0;
+    margin-left:120px;
+    object-fit: cover;
+}
+
+nav{
+
+  background-color: #F4ACB7; 
+  height: 125px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top:0;
+  right: 0;
+}
+
+.enlace {
+
+    position: absolute;
+    padding: 12px 0px 0px 50px;
+    
+}
+
+.foto {
+
+    width: 45%;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+nav ul {
+
+    margin-top: 10px;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+nav ul li {
+   
+    display: inline-block;
+    line-height: 120px;
+    margin: 0px 5px;
+   
+}
+
+nav ul li a {
+
+    color: #333;
+    font-size: 1rem;
+    padding: 0.3rem 0.3rem;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover {
+   color: antiquewhite;
+   background-color: #c08e96;
+ 
+}
+
+.activo {
+    box-sizing: border-box;
+    background-color: #c08e96;
+    
+    
+}
+.checkbtn {
+
+    font-size: 60px;
+    color: white;
+    float: right;
+    line-height: 112px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+main {
+margin-top: 10rem;
+}
+
+.bicicletas {
+display: flex;
+justify-content: center;
+}
+
+.imagen {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+.textoimagen {
+
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    margin-left: 0;
+}
+
+.read-more-btn {
+    background-color: #c08e96;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding: 0px 15px; 
+    font-size: 1rem;
+    cursor: pointer;
+   font-weight: bolder;
+
+  }
+  
+  .read-more-btn:hover {
+    box-shadow: none;
+    color: antiquewhite;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+  }
+  
+   
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.item {
+ scroll-margin-top: 125px;
+}
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: #333;
+    }
+
+h1 {
+
+    font-size: 1rem;
+    background-color: #c08e96;
+    text-transform: uppercase;
+    padding: 0px 15px; 
+    letter-spacing: 0.25rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+p {
+    margin-bottom: 1.6em;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+.container {
+
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #c08e96;
+    margin-top: 50px;
+   }
+
+.btn {
+    min-width: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn a {
+    
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #F4ACB7;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    margin:10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}  
+
+.btn a:hover {
+    transform: scale(1.2);
+  }
+
+.contacto  {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}  
+
+@media  (max-width: 900px) {
+
+    nav ul li a {
+
+    font-size: 16px;
+   }
+
+}
+    
+@media  (max-width: 900px) {
+
+
+    .imagenmujer {
+        width: 90%;
+        padding: 0;
+        margin-left:25px;
+        object-fit: cover;
+    }
+
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        color: #333;
+        }
+
+        .imagen {
+            height: 110px;
+            width: 110px;
+            object-fit: cover;
+            margin-bottom: 0px;
+        }
+
+   .checkbtn {
+       display: block;
+    }
+
+    nav ul {
+       position: fixed;
+       width: 35%;
+       height: 100vh ;
+       background-color: #c08e96;
+       top: 115px;
+       left: -100%;
+       align-items: left;
+       transition: all 0.5s;
+       display: flex;
+       flex-direction: column;
+       
+      
+       
+    }
+
+    nav ul li {
+    
+       display: block;
+       margin: 25px 0px 25px 25px;
+       line-height: 10px;
+       
+      
+    }
+
+    nav ul li a.hover {
+        color: #333;
+    
+        
+     }
+
+     #check:checked ~ ul {
+     left:0;
+
+     }
+
+    }
+
+
+
